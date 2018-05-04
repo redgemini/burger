@@ -1,7 +1,9 @@
+//burgerController test
+console.log("load BurgerController.js test"); 
+
 //routers go here
 
 var express = require("express");
-
 var router = express.Router();
 
 //Import burger.js to use db
