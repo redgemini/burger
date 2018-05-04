@@ -18,6 +18,7 @@ var burger = {
     [name, false], cb);
   },
 
+  
  update: function (id, cb) {
    var condition = "id=" + id;
    orm.update("burgers", {
