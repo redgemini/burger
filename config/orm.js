@@ -18,7 +18,7 @@ function printQuestionMarks(num) {
 }
 
 function objToSql(ob) {
-  // column1=value, column2=value2,...
+  
   var arr = [];
 
   for (var key in ob) {
