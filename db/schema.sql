@@ -11,5 +11,6 @@ CREATE TABLE burgers(
     id int NOT NULL IDENTITY(1,1),
     burger_name varchar (255) NOT NULL,
     devoured BOOL DEFAULT false,
+    createdAt TIMESTAMP NOT NULL,
     PRIMARY KEY (id)
 );
