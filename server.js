@@ -5,6 +5,8 @@ console.log("load server.js");
 var express = require("express");
 var bodyParser = require("body-parser");
 
+require('dotenv').config();
+
 //set up port
 var PORT = process.env.PORT || 3306;
 

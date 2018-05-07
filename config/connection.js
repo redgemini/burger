@@ -15,6 +15,7 @@ if(process.env.JAWSDB_URL) {
   password: "",
   database: "burger_db"
 });
+ // connection = mysql.createConnection('mysql://eyk5lnfzl0guac8w:mpnmrq5b7nbs19q6@ocvwlym0zv3tcn68.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/yxt1jgn9352nktgc');
 };
 connection.connect(function(err) {
   if (err) {
