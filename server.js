@@ -1,5 +1,6 @@
 // test server.js load
 console.log("load server.js");
+require('dotenv').config();
 
 //require npm packages
 var express = require("express");
